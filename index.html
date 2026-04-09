@@ -5,42 +5,27 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PART 1: ASSET DESCRIPTIONS</title>
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0a0a0a;color:#e0e0e0;padding:20px;max-width:600px;margin:0 auto;line-height:1.8;font-size:18px}
-h1{font-size:28px;color:#ff6b6b;text-align:center;margin:30px 0 20px;border-bottom:2px solid #333;padding-bottom:15px}
-h2{font-size:22px;color:#4ecdc4;margin:25px 0 12px;padding:10px 0;border-left:4px solid #4ecdc4;padding-left:12px}
-h3{font-size:18px;color:#ffe66d;margin:15px 0 8px}
-p{margin:8px 0}
-.bold{font-weight:700;color:#fff}
-li{margin:6px 0 6px 20px;color:#ccc}
-.part{background:#1a1a2e;border-radius:12px;padding:15px;margin:12px 0;border-left:4px solid #ff6b6b}
-.part-label{display:inline-block;background:#ff6b6b;color:#000;font-weight:700;padding:2px 10px;border-radius:6px;margin-right:8px;font-size:14px}
-.dialogue{background:#16213e;border-radius:10px;padding:12px 15px;margin:8px 0;border-left:3px solid #4ecdc4}
-.speaker{color:#4ecdc4;font-weight:700}
-.speaker::after{content:"：";color:#4ecdc4}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, 'PingFang SC', sans-serif; background: #0a0a0f; color: #e0e0e0; max-width: 600px; margin: 0 auto; padding: 16px; font-size: 16px; line-height: 1.7; }
+h1 { text-align: center; font-size: 24px; margin: 20px 0; color: #fff; }
+h2 { font-size: 20px; margin: 16px 0 12px; color: #4fc3f7; }
+.section { background: #1a1a2e; border-radius: 12px; padding: 16px; margin: 16px 0; }
+.character { display: flex; gap: 12px; margin: 12px 0; align-items: flex-start; }
+.char-img { width: 80px; height: 80px; border-radius: 50%; object-fit: cover; border: 2px solid #4fc3f7; flex-shrink: 0; }
+.scene { margin: 12px 0; }
+.scene-img { width: 100%; border-radius: 8px; margin-bottom: 8px; }
+.segment { background: #16213e; border-radius: 12px; padding: 16px; margin: 16px 0; border-left: 4px solid #4fc3f7; }
+.meta { color: #aaa; font-size: 14px; margin: 4px 0; }
+.physical-state { background: #0d1b2a; padding: 10px; border-radius: 8px; margin: 8px 0; font-size: 14px; color: #8899aa; white-space: pre-line; }
+.part { background: #1a1a2e; padding: 12px; border-radius: 8px; margin: 8px 0; }
+.part-num { background: #4fc3f7; color: #000; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 13px; }
+.dialogue { color: #ffd54f; font-weight: bold; }
+.char-tag { color: #4fc3f7; font-weight: bold; }
+.camera { background: #1b2838; padding: 8px 12px; border-radius: 8px; margin: 8px 0; font-size: 14px; color: #81c784; }
 </style>
 </head>
 <body>
 <h1>PART 1: ASSET DESCRIPTIONS</h1>
-<h2>Characters</h2>
-<div class="dialogue"><span class="speaker">陈小满</span> : 25岁中国男性，身高172厘米，体型偏瘦；肤色略显疲惫的亚洲男性；脸型消瘦，五官清秀但眼底带有浓重黑眼圈，整体疲惫感明显；乌黑短发，发型简单，发丝略显凌乱且缺乏光泽；在家常穿旧灰色T恤和黑色运动短裤，办公室则穿便宜的浅蓝色衬衫和深色西裤。</div>
-<h2>Scenes</h2>
-<div class="dialogue"><span class="speaker">破旧出租屋</span> : 狭窄的现代单间出租屋，昏暗暖黄灯光。左侧凌乱木桌上堆着泡面盒和外卖袋，桌上一台旧笔记本电脑。右侧单人床铺着皱巴巴的被子。墙角小厨房区域，灶台上有烧黑的锅。整体氛围写实、接地气。</div>
-<div class="dialogue"><span class="speaker">办公室</span> : 普通中国公司开放式办公区，日光灯照明，灰白色隔断，背景有同事埋头工作。老板位置在角落独立桌后，中年男性。</div>
-<h1>PART 2: STORYBOARD</h1>
-<h2>Segment 01 | ≤15s</h2>
-<p>**Location**: [破旧出租屋] → [办公室]</p>
-<p>**Cast**: [陈小满]</p>
-<p>**图片引用**: 图片1=[破旧出租屋] 图片2=[陈小满] 图片3=[办公室]</p>
-<p class="bold">Physical State:</p>
-<div class="dialogue"><span class="speaker">陈小满</span> : 画面中央偏左，瘫坐在木椅上，左手撑着下巴，右手拿着筷子戳泡面，视线低垂看着桌面上的泡面碗。</div>
-<div class="part"><span class="part-label">[Part 1]</span> [陈小满]瘫坐在出租屋木椅上，右手有气无力地用筷子挑着泡面，左手撑着下巴，眉头微皱，嘴角下耷。面前的泡面冒着稀薄的热气。[陈小满]低声自言自语：&quot;第三百六十五天，还是老坛酸菜。&quot;</div>
-<div class="part"><span class="part-label">[Part 2]</span> 桌上旧笔记本屏幕突然爆发刺眼蓝光，[陈小满]猛地后仰，双手抓住椅子扶手，瞳孔放大，嘴巴张成O型。一行金色大字浮现在空气中。画外音（AI客服语气）：&quot;恭喜宿主激活美食降临系统。检测味觉等级——泡面鉴赏家。&quot;</div>
-<div class="part"><span class="part-label">[Part 3]</span> [陈小满]上身前倾，双手撑在桌面上，眼珠左右快速转动盯着空中文字，额头渗汗。画外音：&quot;首个任务：明日在上司面前完成一道菜品。失败惩罚——扣除味觉三天。&quot;[陈小满]猛吞口水，声音发颤：&quot;我连蛋都不会煎啊！&quot;</div>
-<div class="part"><span class="part-label">[Part 4]</span> 切换至出租屋厨房区域，[陈小满]站在灶台前，左手颤抖地握着锅铲，右手把鸡蛋磕向锅沿——蛋液飞溅到T恤上，锅里浓烟翻滚。[陈小满]被烟呛得猛咳，用手臂挡脸。烟雾报警器&quot;滴滴滴&quot;响起。[陈小满]绝望地吼：&quot;遗书该写了！&quot;</div>
-<div class="part"><span class="part-label">[Part 5]</span> 切换至[办公室]，[陈小满]穿浅蓝衬衫，双手端着一个盖着盖子的盘子，手指发白地紧握盘沿，腿在微微打颤，一步步走向老板桌前。额头全是汗，视线死死盯着盘子不敢抬头。</div>
-<div class="part"><span class="part-label">[Part 6]</span> [陈小满]双手掀开盘盖，露出一盘卖相诡异的黑乎乎炒蛋。老板皱眉夹起一块送入口中——瞬间双眼圆睁，筷子悬在半空。画外音（兴奋语气）：&quot;任务完成！奖励解锁：黄金蛋炒饭配方！&quot;[陈小满]嘴角不可思议地上扬。画外音突然冷下来：&quot;下一个任务——为一百人制作宴席。倒计时：四十八小时。&quot;[陈小满]笑容僵在脸上。</div>
-<p>运镜：中近景为主，Part 1-4 固定机位平视，Part 5 跟拍侧面中景，Part 6 正面中近景缓推。全程正常速度，禁止慢动作。</p>
-
+<div class="section"><h2>👤 角色设定</h2><div class="character"><div><strong>[陈小满]</strong><p>25岁中国男性，身高172厘米，体型偏瘦；肤色略显疲惫的亚洲男性；脸型消瘦，五官清秀但眼底带有浓重黑眼圈，整体疲惫感明显；乌黑短发，发型简单，发丝略显凌乱且缺乏光泽；在家常穿旧灰色T恤和黑色运动短裤，办公室则穿便宜的浅蓝色衬衫和深色西裤。</p></div></div><div class="character"><div><strong>[破旧出租屋]</strong><p>狭窄的现代单间出租屋，昏暗暖黄灯光。左侧凌乱木桌上堆着泡面盒和外卖袋，桌上一台旧笔记本电脑。右侧单人床铺着皱巴巴的被子。墙角小厨房区域，灶台上有烧黑的锅。整体氛围写实、接地气。</p></div></div><div class="character"><div><strong>[办公室]</strong><p>普通中国公司开放式办公区，日光灯照明，灰白色隔断，背景有同事埋头工作。老板位置在角落独立桌后，中年男性。</p></div></div><div class="character"><div><strong>[陈小满]</strong><p>画面中央偏左，瘫坐在木椅上，左手撑着下巴，右手拿着筷子戳泡面，视线低垂看着桌面上的泡面碗。</p></div></div></div><div class="section"><h2>🎬 场景</h2><div class="scene"><p><strong>[破旧出租屋]</strong>: 狭窄的现代单间出租屋，昏暗暖黄灯光。左侧凌乱木桌上堆着泡面盒和外卖袋，桌上一台旧笔记本电脑。右侧单人床铺着皱巴巴的被子。墙角小厨房区域，灶台上有烧黑的锅。整体氛围写实、接地气。</p></div><div class="scene"><p><strong>[办公室]</strong>: 普通中国公司开放式办公区，日光灯照明，灰白色隔断，背景有同事埋头工作。老板位置在角落独立桌后，中年男性。</p></div></div><div class="segment"><h2>🎬 Segment 01</h2><div class="meta">📍 [破旧出租屋] → [办公室]</div><div class="meta">👥 [陈小满]</div><div class="physical-state"><strong>Physical State:</strong><br>- [陈小满]: 画面中央偏左，瘫坐在木椅上，左手撑着下巴，右手拿着筷子戳泡面，视线低垂看着桌面上的泡面碗。</div><div class="part"><span class="part-num">Part 1</span> <span class="char-tag">[陈小满]</span>瘫坐木椅，右手筷子挑泡面，左手撑下巴，眉头微皱。面前泡面冒着稀薄热气。<span class="char-tag">[陈小满]</span>低声：<span class="dialogue">"又是泡面。"</span></div><div class="part"><span class="part-num">Part 2</span> 桌上旧笔记本爆发蓝光，<span class="char-tag">[陈小满]</span>猛地后仰，双手抓住扶手，瞳孔放大。金色大字浮现空中。画外音：<span class="dialogue">"恭喜激活美食系统！任务：明天给上司做道菜。"</span></div><div class="part"><span class="part-num">Part 3</span> <span class="char-tag">[陈小满]</span>前倾撑桌，眼珠转动盯着空中文字，额头渗汗。<span class="char-tag">[陈小满]</span>声音发颤：<span class="dialogue">"我连蛋都不会煎！"</span>切至厨房，<span class="char-tag">[陈小满]</span>笨拙握锅铲磕鸡蛋，蛋液溅到T恤，锅里滋滋冒油，苦笑：<span class="dialogue">"太难了！"</span></div><div class="part"><span class="part-num">Part 4</span> 切至<span class="char-tag">[办公室]</span>，<span class="char-tag">[陈小满]</span>穿浅蓝衬衫，双手端盖盘，手指发白，腿微颤，一步步走向老板桌。额头全汗，不敢抬头。</div><div class="part"><span class="part-num">Part 5</span> <span class="char-tag">[陈小满]</span>掀开盘盖，黑乎乎炒蛋。老板皱眉夹一块入口——双眼圆睁。画外音：<span class="dialogue">"任务完成！奖励：黄金蛋炒饭配方！"</span><span class="char-tag">[陈小满]</span>嘴角上扬。画外音冷下来：<span class="dialogue">"下个任务——百人宴席，四十八小时。"</span>笑容僵住。</div><div class="camera">🎥 中近景为主，Part 1-3 固定机位平视，Part 4 跟拍侧面中景，Part 5 正面中近景缓推。全程正常速度，禁止慢动作。</div></div>
 </body>
 </html>
