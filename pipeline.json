@@ -32,26 +32,10 @@
       "storyboard_verdict": "PASS"
     },
     "step3": {
-      "status": "done",
-      "started_at": "2026-04-09T09:58:39.554947+00:00",
-      "completed_at": "2026-04-09T10:04:02.314877+00:00",
-      "output": "assets/asset-map.json",
-      "asset_count": 0
+      "status": "not_started"
     },
     "step4": {
-      "status": "in_progress",
-      "segments": {
-        "Segment 01": {
-          "task_id": "cgt-20260409191051-vqcsl",
-          "status": "retrying",
-          "video": "output/Segment_01_v2.mp4",
-          "check_verdict": "FAIL",
-          "attempts": 2,
-          "_qc_retries": 1,
-          "retry_task_id": "cgt-20260409192136-qdxmq"
-        }
-      },
-      "started_at": "2026-04-09T11:10:51.284960+00:00"
+      "status": "not_started"
     },
     "step6": {
       "status": "not_started"
