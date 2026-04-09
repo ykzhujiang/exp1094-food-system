@@ -3,25 +3,25 @@
   "created_at": "2026-04-09T09:11:27.531564+00:00",
   "github_repo": "ykzhujiang/exp1094-food-system",
   "config": {
-    "theme": "都市打工人获得美食降临系统，完成离谱搞笑任务召唤神级美食",
+    "theme": "\u90fd\u5e02\u6253\u5de5\u4eba\u83b7\u5f97\u7f8e\u98df\u964d\u4e34\u7cfb\u7edf\uff0c\u5b8c\u6210\u79bb\u8c31\u641e\u7b11\u4efb\u52a1\u53ec\u5524\u795e\u7ea7\u7f8e\u98df",
     "genre": "comedy",
     "style": "realistic",
     "duration": 15,
     "characters": 2,
-    "setting": "现代中国都市，出租屋/办公室",
+    "setting": "\u73b0\u4ee3\u4e2d\u56fd\u90fd\u5e02\uff0c\u51fa\u79df\u5c4b/\u529e\u516c\u5ba4",
     "ratio": "9:16",
     "episode": "ep01",
     "source_video": null,
     "entry": "B"
   },
-  "status": "done",
+  "status": "in_progress",
   "steps": {
     "step1b": {
       "status": "done",
       "started_at": "2026-04-09T09:11:46.768514+00:00",
       "completed_at": "2026-04-09T09:13:22.222524+00:00",
       "output": "production/storyboard/ep01.md",
-      "segment_count": 2
+      "segment_count": 1
     },
     "step1.5": {
       "status": "done",
@@ -39,19 +39,7 @@
       "asset_count": 0
     },
     "step4": {
-      "status": "done",
-      "segments": {
-        "Segment 01": {
-          "task_id": "cgt-20260409183032-5jpm6",
-          "status": "done",
-          "video": "production/output/ep01/Segment 01.mp4",
-          "check_verdict": "BEST_SELECTED",
-          "attempts": 3,
-          "_qc_retries": 2
-        }
-      },
-      "started_at": "2026-04-09T10:30:32.244569+00:00",
-      "completed_at": "2026-04-09T10:46:51.462616+00:00"
+      "status": "not_started"
     },
     "step6": {
       "status": "not_started"
