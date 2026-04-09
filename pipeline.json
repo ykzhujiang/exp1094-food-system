@@ -14,7 +14,7 @@
     "source_video": null,
     "entry": "B"
   },
-  "status": "step4_done",
+  "status": "step3_done",
   "steps": {
     "step1b": {
       "status": "done",
@@ -39,18 +39,7 @@
       "asset_count": 0
     },
     "step4": {
-      "status": "done",
-      "segments": {
-        "Segment 01": {
-          "task_id": "cgt-20260409182153-kmds9",
-          "status": "failed",
-          "video": null,
-          "check_verdict": "GENERATION_FAILED",
-          "attempts": 0
-        }
-      },
-      "started_at": "2026-04-09T10:21:53.647470+00:00",
-      "completed_at": "2026-04-09T10:29:31.758839+00:00"
+      "status": "not_started"
     },
     "step6": {
       "status": "not_started"
