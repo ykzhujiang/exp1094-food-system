@@ -4,12 +4,12 @@
   "failed": 1,
   "segments": {
     "Segment 01": {
-      "task_id": "cgt-20260409183032-5jpm6",
+      "task_id": "cgt-20260409204707-g7th7",
       "status": "done",
       "video": "output/Segment_01_v3.mp4",
       "check_verdict": "BEST_SELECTED",
       "attempts": 3,
-      "_qc_retries": 2
+      "retry_task_id": "cgt-20260409210003-lpm8h"
     }
   }
 }
