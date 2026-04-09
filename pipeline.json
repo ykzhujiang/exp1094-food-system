@@ -1,0 +1,35 @@
+{
+  "project": "exp1094-food-system",
+  "created_at": "2026-04-09T09:11:27.531564+00:00",
+  "github_repo": "ykzhujiang/exp1094-food-system",
+  "config": {
+    "theme": "都市打工人获得美食降临系统，完成离谱搞笑任务召唤神级美食",
+    "genre": "comedy",
+    "style": "realistic",
+    "duration": 15,
+    "characters": 2,
+    "setting": "现代中国都市，出租屋/办公室",
+    "ratio": "9:16",
+    "episode": "ep01",
+    "source_video": null,
+    "entry": "B"
+  },
+  "status": "not_started",
+  "steps": {
+    "step1b": {
+      "status": "not_started"
+    },
+    "step1.5": {
+      "status": "not_started"
+    },
+    "step3": {
+      "status": "not_started"
+    },
+    "step4": {
+      "status": "not_started"
+    },
+    "step6": {
+      "status": "not_started"
+    }
+  }
+}
