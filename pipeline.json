@@ -42,15 +42,15 @@
       "status": "done",
       "segments": {
         "Segment 01": {
-          "task_id": "cgt-20260409181311-lvvsg",
+          "task_id": "cgt-20260409182153-kmds9",
           "status": "failed",
           "video": null,
           "check_verdict": "GENERATION_FAILED",
           "attempts": 0
         }
       },
-      "started_at": "2026-04-09T10:13:11.593068+00:00",
-      "completed_at": "2026-04-09T10:19:18.207403+00:00"
+      "started_at": "2026-04-09T10:21:53.647470+00:00",
+      "completed_at": "2026-04-09T10:29:31.758839+00:00"
     },
     "step6": {
       "status": "not_started"
